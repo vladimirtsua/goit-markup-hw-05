@@ -68,7 +68,7 @@ ul {
 .site-nav .link {
   color: var(--main-color);
   text-decoration: none;
-  transition-property: all;
+
   transition: 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -82,7 +82,7 @@ ul {
 .adress-nav .alink {
   color: var(--text-color);
   text-decoration: none;
-  transition-property: all;
+
   transition: 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -139,7 +139,7 @@ ul {
   justify-content: center;
   align-items: center;
   color: var(--text-color);
-  transition-property: all;
+
   transition: 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -441,7 +441,7 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  transition-property: all;
+
   transition: 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -489,7 +489,7 @@ ul {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition-property: all;
+
   transition: 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -549,7 +549,7 @@ ul {
 }
 .social-items {
   border-radius: 50%;
-  transition-property: all;
+
   transition: 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -603,7 +603,6 @@ ul {
   line-height: 1.6;
   letter-spacing: 0.03em;
 
-  transition-property: all;
   transition: 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
