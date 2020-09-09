@@ -33,6 +33,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+a {
+  text-decoration: none;
+}
 
 .listt {
   margin: 0px;
@@ -65,6 +68,9 @@ ul {
 .site-nav .link {
   color: var(--main-color);
   text-decoration: none;
+  transition-property: all;
+  transition: 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link:hover,
 .site-nav .linl:active {
@@ -76,6 +82,9 @@ ul {
 .adress-nav .alink {
   color: var(--text-color);
   text-decoration: none;
+  transition-property: all;
+  transition: 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-nav .alink:hover,
 .adress-nav .alink:active {
@@ -130,6 +139,9 @@ ul {
   justify-content: center;
   align-items: center;
   color: var(--text-color);
+  transition-property: all;
+  transition: 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .alink:hover .svgnav {
   fill: var(--active-color);
@@ -422,6 +434,9 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition-property: all;
+  transition: 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon {
   width: 20px;
@@ -467,6 +482,9 @@ ul {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition-property: all;
+  transition: 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon {
   fill: #afb1b8;
@@ -522,11 +540,16 @@ ul {
 .social-list {
   display: flex;
 }
+.social-items {
+  border-radius: 50%;
+  transition-property: all;
+  transition: 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .social-items:not(:last-child) {
   margin-right: 10px;
 }
 .social-items:hover {
-  border-radius: 50%;
   background-color: #2196f3;
 }
 .social-links {
@@ -561,13 +584,6 @@ ul {
 .navbutli:last-child {
   margin-right: 0px;
 }
-.nav-list:hover,
-.nav-list:active {
-  background-color: var(--active-color);
-  color: var(--hero-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
 .nav-list {
   border-radius: 4px;
   padding: 5px 22px;
@@ -579,6 +595,17 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+
+  transition-property: all;
+  transition: 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-list:hover,
+.nav-list:active {
+  background-color: var(--active-color);
+  color: var(--hero-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* example */
@@ -642,6 +669,7 @@ ul {
 
   transform: translatey(100%);
   transition: transform 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay > p {
   font-style: normal;
@@ -657,5 +685,5 @@ ul {
   margin: 0px;
 }
 .overlaybox:hover .overlay {
-  transform: translatex(0);
+  transform: translatey(0);
 }
